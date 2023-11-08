@@ -10,8 +10,8 @@ let sacasMenosImposto = valorDasSacas - (valorDasSacas * 0.015)
 
 
 console.log("milho / 60: ", sacaPorKilo);
-console.log("menos 1,5%: ", valorADividir);
-console.log("Valor em Kilos para 201: ", kgTotais)
-console.log("Valor em sacas: ", sacasTotais)
-console.log("Valor em reais das sacas: ", valorDasSacas)
-console.log("Valor final: ", sacasMenosImposto)
+console.log("menos 1,5%: ", valorADividir.toFixed(4));
+console.log("Valor em Kilos para 201: ", kgTotais.toFixed(4))
+console.log("Valor em sacas: ", sacasTotais.toFixed(4))
+console.log("Valor em reais das sacas: ", valorDasSacas.toLocaleString())
+console.log("Valor final: ", sacasMenosImposto.toLocaleString())
