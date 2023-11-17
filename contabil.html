@@ -3,10 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="contabil.js"></script>
+    <title>Ferramenta MK</title>
+
 </head>
 <body>
-    
+
+<form action="contabil.html" id="form">
+
+    <label for="c_valorDebito">Valor do Débito</label>
+    <input type="text" id="c_valorDebito">
+
+    <label for="c_preco">Preço Cereal</label>
+    <input type="text" id="c_preco">
+
+    <label for="c_precoPorKg">Preço por KG</label>
+    <div id="c_precoPorKg">0</div>
+
+    <label for="c_desconto">Desconto Funrural no preço por KG</label>
+    <div id="c_desconto">0</div>
+
+    <label for="c_valorKilos">Valor em KG</label>
+    <div id="c_valorKilos">0</div>
+
+    <label for="c_qtdSacas">Quantidades de Sacas</label>
+    <div id="c_qtdSacas">0</div>
+
+    <label for="c_precoSacas">Valor Bruto Total</label>
+    <div id="c_precoSacas">0</div>
+
+    <label for="c_ValorFinal">Valor Líquido Total</label>
+    <div id="c_ValorFinal">0</div>
+
+    <input type="submit" id="submit">
+
+</form>
+
+
+
+    <script src="contabil.js"></script>
 </body>
 </html>
